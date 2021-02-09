@@ -53,7 +53,6 @@ install:
   - python -m pip install -U pip
   - pip install -r requirements/docs.txt
   - pip install -r requirements/tests.txt
-  - pip install -r requirements/typing.txt
   - python setup.py install
   - pip install --no-deps -e .
   - travis_retry pip install tox
