@@ -25,9 +25,9 @@ matrix:
   - python: 3.9
     env: TOXENV=py39
   - python: 3.9
-    env: TOXENV=Docs 
+    env: TOXENV=docs 
   - python: 3.9
-    env: TOXENV=Typing
+    env: TOXENV=typing
   - python: 3.6
     env: TOXENV=py36
     arch: ppc64le
@@ -41,10 +41,10 @@ matrix:
     env: TOXENV=py39
     arch: ppc64le
   - python: 3.9
-    env: TOXENV=Docs 
+    env: TOXENV=docs 
     arch: ppc64le
   - python: 3.9
-    env: TOXENV=Typing
+    env: TOXENV=typing
     arch: ppc64le
 install:
   - pip install -U wheel
